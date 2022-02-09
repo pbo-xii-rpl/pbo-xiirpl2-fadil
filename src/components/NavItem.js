@@ -1,10 +1,12 @@
-export default function Nav() {
+function NavItem() {
     return (
-        <div className="flex justify-center space-x-11 text-lg">
-        <a className="nav-items font-semibold text-white text-opacity-60" href="#">Profile</a>
-        <a className="nav-items font-semibold text-white text-opacity-60" href="#">Skills</a>
-        <a className="nav-items font-semibold text-white text-opacity-60" href="#">Projects</a>
-        <a className="nav-items font-semibold text-white text-opacity-60" href="#">About</a>
+        <div className="nav-item flex justify-center space-x-10 py-16">
+        <a className="text-lg font-semibold text-white text-opacity-60" href="#">Profile</a>
+        <a className="text-lg font-semibold text-white text-opacity-60" href="#">Skills</a>
+        <a className="text-lg font-semibold text-white text-opacity-60" href="#">Projects</a>
+        <a className="text-lg font-semibold text-white text-opacity-60" href="#">About</a>
       </div>
     );
 }
+
+export default NavItem;
